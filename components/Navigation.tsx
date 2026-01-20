@@ -39,7 +39,7 @@ const Navigation: React.FC = () => {
                  <Terminal size={20} className="text-accent-green" />
               </div>
               <span className="font-mono font-bold text-lg text-slate-200 group-hover:text-accent-green transition-colors">
-                ~/sabari.cloud
+                sabari.ml
               </span>
             </a>
           </div>

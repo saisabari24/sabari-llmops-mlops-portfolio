@@ -16,16 +16,15 @@
                 950: '#020617',
               },
               brand: {
-                400: '#38bdf8', // Keeping for legacy reference, but moving to accent
+                400: '#38bdf8',
                 500: '#0ea5e9',
               },
-              // Vibrant "Dracula/Cyberpunk" Palette
               accent: {
-                green: '#50fa7b',  // Terminal Green
-                pink: '#ff79c6',   // Neon Pink
-                purple: '#bd93f9', // Bright Purple
-                yellow: '#f1fa8c', // Warning Yellow
-                cyan: '#8be9fd',   // Electric Cyan
+                green: '#50fa7b',
+                pink: '#ff79c6',
+                purple: '#bd93f9',
+                yellow: '#f1fa8c',
+                cyan: '#8be9fd',
               }
             },
             fontFamily: {
@@ -56,12 +55,10 @@
 
       .bg-grid-white {
         background-size: 50px 50px;
-        /* Subtle opacity for full page coverage */
         background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
                           linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
       }
 
-      /* Custom scrollbar */
       ::-webkit-scrollbar {
         width: 10px;
       }
@@ -76,22 +73,23 @@
         background: #334155;
       }
     </style>
-    <script type="importmap">
+  <script type="importmap">
 {
   "imports": {
-    "lucide-react": "https://esm.sh/lucide-react@0.344.0",
-    "recharts": "https://esm.sh/recharts@2.12.0?external=react,react-dom",
-    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-    "react-dom": "https://esm.sh/react-dom@18.2.0",
-    "react/": "https://esm.sh/react@18.2.0/",
-    "react": "https://esm.sh/react@18.2.0",
-    "framer-motion": "https://esm.sh/framer-motion@11.0.8?external=react,react-dom",
-    "react-dom/": "https://esm.sh/react-dom@18.2.0/"
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.27.2",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
   }
 }
 </script>
-  </head>
+</head>
   <body class="bg-slate-950 text-slate-100 antialiased selection:bg-accent-green selection:text-slate-950 overflow-x-hidden">
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
