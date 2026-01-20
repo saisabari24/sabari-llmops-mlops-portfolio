@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
     const i = loopNum % toRotate.length;
     const fullText = toRotate[i];
 
-    const handleType = () => {
+    const handleType = () => { 
       setText(isDeleting 
         ? fullText.substring(0, text.length - 1) 
         : fullText.substring(0, text.length + 1)
