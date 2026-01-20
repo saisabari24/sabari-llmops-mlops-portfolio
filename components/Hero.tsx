@@ -216,7 +216,7 @@ const Hero: React.FC = () => {
                 </div>
 
                 <div className="text-accent-green mt-2 animate-pulse">
-                    > System Ready. Latency: 45ms
+                    {'>'} System Ready. Latency: 45ms
                 </div>
 
                 {/* Experience Block inside terminal */}
