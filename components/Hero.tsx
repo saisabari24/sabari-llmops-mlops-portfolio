@@ -150,9 +150,8 @@ const Hero: React.FC = () => {
               <motion.a 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="Sabari_llmops_mlops_resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/Sabari_llmops_mlops_resume.pdf"
+                download="Sabari_llmops_mlops_resume.pdf"
                 className="w-full sm:w-auto px-6 py-3 rounded-lg border border-accent-green bg-accent-green/10 text-accent-green hover:bg-accent-green hover:text-slate-950 font-mono font-bold transition-all shadow-[0_0_15px_rgba(80,250,123,0.1)] flex items-center justify-center gap-2 group whitespace-nowrap"
               >
                 <Terminal size={18} />
