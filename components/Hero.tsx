@@ -92,8 +92,8 @@ const Hero: React.FC = () => {
                   { id: 'UAE', label: 'UAE (DUBAI)' },
                   { id: 'LUX', label: 'LUXEMBOURG' }
                 ].map((zone) => (
-                  <div key={zone.id} className="flex justify-end items-center gap-3 group cursor-default hover:bg-white/5 p-1 rounded transition-all">
-                    <span className="font-bold text-sm tracking-wide text-accent-cyan drop-shadow-[0_0_8px_rgba(139,233,253,0.6)] group-hover:text-accent-green group-hover:drop-shadow-[0_0_8px_rgba(80,250,123,0.6)] transition-all duration-300">
+                  <div key={zone.id} className="flex justify-end items-center gap-3 group cursor-default p-1 rounded transition-all">
+                    <span className="font-bold text-sm tracking-wide text-slate-950 bg-accent-cyan px-2 py-0.5 rounded shadow-[0_0_10px_rgba(139,233,253,0.5)] group-hover:bg-accent-green group-hover:shadow-[0_0_15px_rgba(80,250,123,0.6)] transition-all duration-300">
                       {zone.label}
                     </span>
                     <span className="text-[10px] text-accent-purple font-bold bg-accent-purple/10 px-1.5 py-0.5 rounded border border-accent-purple/20">[{zone.id}]</span>
