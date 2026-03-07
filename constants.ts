@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   website: "sabari.cloud",
   linkedin: "linkedin.com/in/sabariaditiyaa",
   github: "github.com/saisabari24",
-  summary: "Senior MLOps & LLMOps Engineer with 5.6 years of experience architecting scalable, production-grade AI platforms at Bank of America and Infosys. Expert in designing Kubernetes-native inference infrastructure, combining KServe and vLLM to deliver low-latency, high-throughput LLM serving. Proven track record of building robust CI/CD pipelines that reduced deployment lead time by 70%. Specialized in GPU resource optimization, reliable data engineering for 50M+ records, and ensuring 99.9% system uptime for mission-critical enterprise workloads. Actively seeking opportunities in Australia, Saudi Arabia, UAE, and Luxembourg."
+  summary: "Senior MLOps & LLMOps Engineer with 6 years of experience architecting scalable, production-grade AI platforms at Bank of America and Infosys. Expert in designing Kubernetes-native inference infrastructure, combining KServe and vLLM to deliver low-latency, high-throughput LLM serving. Proven track record of building robust CI/CD pipelines that reduced deployment lead time by 70%. Specialized in GPU resource optimization, reliable data engineering for 50M+ records, and ensuring 99.9% system uptime for mission-critical enterprise workloads. Actively seeking opportunities in Australia, Saudi Arabia, UAE, and Luxembourg."
 };
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
@@ -153,6 +153,21 @@ export const PROJECTS: ProjectItem[] = [
 ];
 
 export const CERTIFICATIONS: CertificationItem[] = [
+  { 
+    name: "Certified Kubernetes Application Developer (CKAD)", 
+    issuer: "Linux Foundation",
+    link: "https://www.credly.com/badges/7c5d4ecf-41bf-4cb7-b378-753fd99188a9"
+  },
+  { 
+    name: "Kubernetes and Cloud Native Security Associate (KCSA)", 
+    issuer: "Linux Foundation",
+    link: "https://www.credly.com/badges/2587c4b8-8a60-4f2f-b136-992227501854"
+  },
+  { 
+    name: "Kubernetes and Cloud Native Associate (KCNA)", 
+    issuer: "Linux Foundation",
+    link: "https://www.credly.com/badges/85aeb9fa-0c67-4c3e-b91e-a1620fa7f07a"
+  },
   { 
     name: "AWS Certified Solutions Architect", 
     issuer: "Amazon Web Services"

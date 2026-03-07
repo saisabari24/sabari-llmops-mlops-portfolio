@@ -24,7 +24,7 @@ const Experience: React.FC = () => {
             </p>
           </div>
           <div className="mt-4 md:mt-0 text-accent-cyan font-mono text-sm border border-slate-800 px-3 py-1 rounded bg-slate-900/80 backdrop-blur-sm">
-            Total Exp: 5.6 Years
+            Total Exp: 6 Years
           </div>
         </motion.div>
 
