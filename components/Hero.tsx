@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
            className="hidden lg:block text-right space-y-6 pointer-events-auto"
         >
           <div className="flex items-center justify-end gap-2 text-xs font-mono text-slate-400 mr-1">
-            <span>CURRENT_LOC: BLR_IN</span>
+            <span>CURRENT_LOC: BLR_IN </span>
             <div className="w-2 h-2 rounded-full bg-accent-green animate-pulse shadow-[0_0_5px_rgba(80,250,123,0.5)]"></div>
           </div>
 
